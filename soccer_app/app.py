@@ -5,7 +5,6 @@ from statistics import mean
 import random
 
 # --- Google Sheets Setup ---
-@st.cache_resource
 
 def get_gsheet_client():
     creds_dict = st.secrets["google"]
